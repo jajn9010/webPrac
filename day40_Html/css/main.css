@@ -1,0 +1,22 @@
+body {
+  background-color: blanchedalmond;
+}
+#tab {
+  border: 1px dotted blue;
+  width: 450px;
+  height: 30px;
+  text-align: center;
+  border-color: aqua;
+}
+tr,
+td,
+th {
+  border: 3px dashed pink;
+}
+.tbl {
+  border: 3px dotted blue;
+  width: 450px;
+  height: 30px;
+  text-align: center;
+  border-color: red;
+}
