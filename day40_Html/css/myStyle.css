@@ -1,4 +1,4 @@
-@CHARSET "EUC-KR";
+@CHARSET "UTF-8";
 
 .accent {
 	font-size: 20px;
@@ -7,7 +7,7 @@
  }
  
  body {
-	font: 14px ¸¼Àº °íµñ;
+	font: 14px ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½;
 	color: blue;
 	background-color: yellow;
 }
@@ -34,7 +34,7 @@ a:hover, a:active, a:focus {
 header {
 	height: 280px;
 	margin-top: 0;
-	background-image: url(bg.png);
+	background-image: url(../images/bg.png);
 	background-repeat: no-repeat;
 	background-position: left top;
 }
