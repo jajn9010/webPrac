@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SignUp</title>
+</head>
+<body>
+	<h1 align="center">회원 정보 입력</h1>
+	<hr>
+	
+	<table border="3" align = "center">
+		<tr>
+			<td width="120" height="40" align="center">ID</td>
+			<td width="400"><input placeholder="ID입력"></td>
+		</tr>
+		<tr>
+			<td height="40" align="center">Password</td>
+			<td><input placeholder="Password 입력"></td>
+		</tr>
+		<tr>
+			<td height="40" align="center">Password 확인</td>
+			<td><input placeholder="Password 재입력"></td>
+		</tr>
+		<tr>
+			<td height="40" align="center">이 름</td>
+			<td><input placeholder="이름입력"></td>
+		</tr>
+		<tr>
+			<td height="40" align="center">전화번호</td>
+			<td>
+				<select>
+					<option>010</option>
+					<option>02</option>
+					<option>031</option>
+					<option>032</option>
+				</select>
+				-<input size = "3" type = "tel">-<input size = "3" type = "tel">
+			</td>
+		</tr>
+		<tr>
+			<td height="40" align="center">직 업</td>
+			<td><select>
+				<option>직업선택</option>
+				<option>학생</option>
+				<option>개발자</option>
+				<option>사무직</option>
+				<option>현장직</option>
+				<option>변호사</option>
+				<option>의사</option>
+				<option>무직</option>
+				<option>기타</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td height="40" align="center">성 별</td>
+			<td><input type="radio" name="opt" checked="checked">남
+				<input type="radio">여</td>
+		</tr>
+		<tr>
+			<td height="40" align="center">취 미</td>
+			<td><input type="radio" name="opt" checked="checked">독서
+				<input type="radio">수영
+				<input type="radio">게임
+				<input type="radio">영화감상
+				<input type="radio">음악듣기</td>
+		</tr>
+		<tr>
+			<td height="40" align="center">자기소개</td>
+			<td><textarea rows="10" cols="55"></textarea></td>
+		</tr>
+		<tr>
+			<td height="40" align="center" colspan="2">
+			<input type="submit" value="등록하기">&nbsp;&nbsp;&nbsp;
+			<input type="reset" value="취소하기"></td>
+		</tr>
+	</table>
+</body>
+</html>
