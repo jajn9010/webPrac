@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	transition: 1s;
+}
+
+.box:focus {
+	width: 300px;
+	background-color: royalblue;
+}
+
+input:focus {
+	background-color: orange;
+}
+
+/* .fruits span:first-child {
+	color: red;
+}
+
+.fruits h3:last-child {
+	color: blue;
+}
+
+.fruits *:nth-child(2) {
+	color: royalblue;
+} */
+
+/* .fruits *:nth-child(2n+1) {
+	color: royalblue;
+} */
+
+/* .fruits *:nth-child(n+2) {
+	color: royalblue;
+} */
+
+.fruits *:not(span) {
+	color: green;
+}
+
+.box::after {
+	content: "후";
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: royalblue;
+}
+
+.box::before {
+	content: "전";
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+}

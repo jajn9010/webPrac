@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex12_css.html</title>
+<link href="../css/main.css" rel = "stylesheet">
+<style type="text/css">
+/* E:가상선택자 <== 대화형컨텐츠
+E::가상요소 <== E::befor (전에 뭐 해줘) E::after(후에 뭐 해줘
+E:nth-child(n) <== E:nth-chid(2) : 두번째 자손에게
+E:nth-child(2n) <== E:nth-chid(2n) : n의 2배씩
+E:nth-of-type(n)
+E:not(s) <== .fruits div:not(.strawberry) <== strawberry를 뺀 */
+
+	ul li::before {
+	content: "number";
+	font-weight: bold;
+	color: red;
+	margin-right: 20px;
+}
+	.fruits li::after {
+	content: "0";
+	font-weight: bold;
+	color: blue;
+	margin-right: 20px;
+}
+
+
+</style>
+</head>
+<body>
+<ul class="fruits">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+</ul><hr>
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+</ul><hr>
+<img alt="Trulli" src="../images/1.jpg" style="width: 50%">
+
+<div class = "fruits">
+	<div></div>
+	<div class="strawberry"></div>
+	<div></div>
+	<div></div>
+</div>
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+</ul>
+</body>
+</html>
