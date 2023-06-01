@@ -1,6 +1,11 @@
 /* main5.js */
 //function
 
+const arrowFun = x => [1, 2, 3];
+console.log('arrowFun : ', arrowFun(7));
+
+console.log('-----------------------------')
+
 const sum10 = ( ) => {console.log('HELLO')}
 sum10();
 
